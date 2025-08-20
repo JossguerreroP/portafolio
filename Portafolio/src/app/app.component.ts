@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+
+  activeSection: string = 'inicio';
+
+  showSection(section: string) {
+    this.activeSection = section;
+    console.log(this.activeSection)
+  }
+
+
+
   title = 'Portafolio';
 }

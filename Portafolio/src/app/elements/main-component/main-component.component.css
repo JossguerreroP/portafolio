@@ -1,24 +1,39 @@
-@import "@angular/material/prebuilt-themes/azure-blue.css";
-.product-card{
-    max-width:150px;
+.section-content {
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center;     /* vertical centering */
+  min-height: 300px;       /* or set a height if needed */
+  margin-top: 20px;
 }
 
-.product-flex{
-    display: flex;        /* Enables flexbox */
-    flex-wrap: wrap;      /* Allows items to wrap onto multiple lines */
-    gap: 60px;            /* Sets the gap between items */
-    justify-content: flex-start; 
+.centered-box {
+  text-align: center;
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
 }
 
-mat-card:hover{
-    transform: scale(1.05);
-    cursor: pointer;
+
+.full-page-section {
+  width: 70vw;             /* Full viewport width */
+  height: calc(60vh - 64px); /* Full height minus navbar height (e.g., 64px if using mat-toolbar) */
+
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; /* Optional: set a background */
+  padding: 5px;
+  box-sizing: border-box;
 }
 
-mat-card {
-    transition: transform .2s;
-}
 
-.sort-dropdown{
-    margin-left: 20px;
+
+.centered-content {
+  text-align: center;
+  max-width: 700px;
+  padding: 80px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
