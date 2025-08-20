@@ -118,3 +118,14 @@ li {
   border-color: #1976d2;
   transform: translateY(-5px);
 }
+
+.project-card i.fa-star {
+  color: #fbc02d;           /* Golden Yellow */
+  margin-right: 8px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.project-card:hover i.fa-star {
+  color: #ffa000;           /* Darker yellow on hover */
+}
