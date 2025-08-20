@@ -24,7 +24,7 @@
 
   <li><strong>Backend:</strong>
     <span class="profile-name"><i class="fas fa-leaf"></i> Spring Boot</span>
-    <span class="profile-name"><i class="fab fa-java"></i> Java 11</span>
+    <span class="profile-name"><i class="fab fa-java"></i> Java 11+</span>
     <span class="profile-name"><i class="fas fa-link"></i> REST APIs</span>
     <span class="profile-name"><i class="fas fa-cubes"></i> Microservicios</span>
   </li>
@@ -58,15 +58,61 @@
 
 
 <div class="section-content">
-<div *ngIf="activeSection === 'inicio'" class="full-page-section">
-  <div class="centered-content">
+  <div *ngIf="activeSection === 'inicio'" class="full-page-section">
+    <div class="centered-content">
 
-    <div *ngIf="activeSection === 'inicio'">
-    <!-- Proyectos content -->
-    <h2 class="st">Proyectos</h2>
-    <p>Estos son algunos de mis proyectos destacados.</p>
-  </div>
+      <!-- Proyectos content -->
+      <h2 class="st">Proyectos</h2>
+       <p>Estos son algunos de mis proyectos destacados:</p>
+         </div>
+     
+   
+
+      <!-- 🔽 Project Cards Start Here -->
+      <div class="project-list">
+        <div class="project-card">
+         <h3><i class="fab fa-angular"></i> Aplicación para la gestión de un sistema de energía electrica ante un evento disruptivo
+</h3>
+          <p>Aplicación que genera análisis para la deteccion de vulnerabilidades en una red electrica y donde se pueden ver datos de los escenarios segun los nodos de la red.</p>
+         <p> Esta aplicación cuenta con los modulos de registro local, creación análisis de casos según los nodos del escenario ,visualización de los reportes generados y el modulo de descargar el reporte del análisis.</p>
+      
+          <p><strong>Tecnologías:</strong> </p>
+               <span class="profile-name"><i class="fab fa-angular"></i> Angular</span>
+               <span class="profile-name"><i class="fab fa-aws"></i> AWS</span>
+          <div>
+ <a href="https://applicationsdeployed.com/" target="_blank" rel="noopener noreferrer">
+ https://applicationsdeployed.com/
+</a>
+          </div>
+         
+        </div>
+
+       <div class="project-card">
+         <h3><i class="fab fa-angular"></i> Aplicación de peliculas
+</h3>
+          <p>Peliculas app</p>
+         <p>Esta aplicación lista las Peliculas del  objeto qué es proporcionado por la API del microservicio en Java Spring</p>
+          <p><strong>Tecnologías:</strong>  </p>
+
+          <a href="https://applicationsdeployed.com/app2/" target="_blank" rel="noopener noreferrer">
+ https://applicationsdeployed.com/app2/
+</a>
+        </div>
+
+        <div class="project-card">
+         <h3><i class="fab fa-angular"></i> Aplicación de Pinturas de Animales
+</h3>
+          <p>Animal Painting</p>
+         <p> Esta aplicación lista las Pinturas del  objeto qué es proporcionado por la API del microservicio en Java Spring</p>
+          <p><strong>Tecnologías:</strong> Angular · Spring Boot · AWS</p>
+          <a href="https://applicationsdeployed.com/app3/" target="_blank" rel="noopener noreferrer">
+https://applicationsdeployed.com/app3/
+</a>
+        </div>
+
+        <!-- Puedes seguir agregando más project-card aquí -->
+      </div>
+      <!-- 🔼 Project Cards End Here -->
 
     </div>
-</div>
-</div>
+  </div>

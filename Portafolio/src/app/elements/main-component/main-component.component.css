@@ -39,6 +39,14 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.project-list {
+      max-width: 700px;
+  padding: 80px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 
 .profile-name {
   font-size: 15px;
@@ -87,4 +95,26 @@ li {
 
 .st:hover::after {
   width: 80%;
+}
+
+.project-card i.fa-angular {
+  color: #dd0031; /* Angular red */
+  margin-right: 8px;
+
+}
+
+.project-card {
+  border: 2px solid #1976d2; /* Angular primary blue */
+  border-radius: 12px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, border-color 0.3s ease;
+  gap: 32px; /* ⬅️ this increases the space between cards */
+  margin-top: 20px;
+}
+
+.project-card:hover {
+  border-color: #1976d2;
+  transform: translateY(-5px);
 }
