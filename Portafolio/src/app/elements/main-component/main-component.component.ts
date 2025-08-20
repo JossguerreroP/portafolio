@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './main-component.component.css'
 })
 export class MainComponentComponent implements OnInit{
+
+ activeSection: string = 'inicio';
+
+ showSection(section: string) {
+    this.activeSection = section;
+    console.log(this.activeSection)
+  }
+
 ngOnInit(): void {
     
       
