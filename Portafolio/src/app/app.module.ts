@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { ElementsModule } from './elements/elements.module';
-
+import { MatDividerModule } from '@angular/material/divider';
 @NgModule({
   declarations: [
     AppComponent
@@ -15,7 +15,8 @@ import { ElementsModule } from './elements/elements.module';
     BrowserModule,
     MatToolbarModule,
     AppRoutingModule,
-    ElementsModule
+    ElementsModule,
+    MatDividerModule
   ],
   providers: [provideHttpClient(withFetch()), provideAnimationsAsync()],
   bootstrap: [AppComponent]

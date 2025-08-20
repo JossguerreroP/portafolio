@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import "@angular/material/prebuilt-themes/indigo-pink.css";
+/*@import "@angular/material/prebuilt-themes/indigo-pink.css";*/
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;background-color: rgb(244,244,244); }
 
@@ -7,6 +7,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;background-c
     padding: 60px;
     max-width: 1200px;
     margin: auto;
+}
+.custom-toolbar {
+  background-color: #f44336; /* softer red (Material Red 500) */
+  color: white;
+}
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox. 
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
 }
 
 .container-sm{

@@ -1,0 +1,111 @@
+.custom-toolbar {
+  background-color: #716c6b; /* softer red (Material Red 500) */
+ color: white;
+  height: 48px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.center-text {
+  text-align: center;
+  padding: 0 12px;
+}
+
+
+.nav-links a {
+  color: white;               /* Make text white */
+  text-decoration: none;      /* Remove underline */
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* subtle hover effect */
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1.05); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1.05); }
+}
+
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr auto auto 1fr;
+  align-items: center;
+  padding: 32px 16px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.col {
+  padding: 8px;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-box {
+  background-color: #f9f9f9;           /* light card background */
+  padding: 16px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);  /* soft shadow */
+  border: 1px solid #e0e0e0;           /* optional border */
+  max-width: 600px;   /* wider card */
+  width: 100%;
+}
+
+.text {
+  font-size: 16px;
+  max-width: 400px;
+}
+
+.empty {
+  /* Keeps spacing without adding anything visible */
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;   /* stacks items vertically */
+  align-items: center;      /* centers content horizontally */
+  gap: 8px;                 /* spacing between image and name */
+  padding: 16px;
+}
+
+.profile-name {
+  font-size: 14px;
+  text-align: center;
+  background-color: #e0e0e0;   /* light gray */
+  color: #333;                 /* dark text */
+  padding: 4px 12px;
+  border-radius: 16px;
+  display: inline-block;
+  font-weight: 500;
+}
