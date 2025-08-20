@@ -141,3 +141,41 @@
 .Linkedin {
   padding-top: 30px;
 }
+
+
+.card-box {
+  text-align: center;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #222;
+}
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #0a66c2; /* LinkedIn blue */
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #004182;
+}
+
+.social-icons i {
+  font-size: 18px;
+}
