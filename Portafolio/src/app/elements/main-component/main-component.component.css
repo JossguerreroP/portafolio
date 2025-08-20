@@ -3,7 +3,7 @@
   justify-content: center; /* horizontal centering */
   align-items: center;     /* vertical centering */
   min-height: 300px;       /* or set a height if needed */
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .centered-box {
@@ -18,8 +18,7 @@
 
 .full-page-section {
   width: 70vw;             /* Full viewport width */
-  height: calc(60vh - 64px); /* Full height minus navbar height (e.g., 64px if using mat-toolbar) */
-
+  /* Full height minus navbar height (e.g., 64px if using mat-toolbar) */
   justify-content: center;
   align-items: center;
   background-color: #f8f8f8; /* Optional: set a background */
