@@ -113,7 +113,7 @@
   gap: 8px;                 /* spacing between image and name */
   padding: 16px;
   background-color: white;  /* white background */
-  border-radius: 10px;      /* rounded corners */
+  border-radius: 0px;      /* rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* subtle shadow */
   border: 1px solid #e0e0e0; /* light border */
 }
@@ -122,10 +122,10 @@
 .profile-name {
   font-size: 14px;
   text-align: center;
-  background-color: #e0e0e0;   /* light gray */
+  background-color: #e6dddd;   /* light gray */
   color: #333;                 /* dark text */
   padding: 4px 12px;
-  border-radius: 16px;
+  border-radius: 1px;
   display: inline-block;
   font-weight: 500;
 }
