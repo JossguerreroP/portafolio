@@ -125,7 +125,7 @@
   background-color: #e6dddd;   /* light gray */
   color: #333;                 /* dark text */
   padding: 4px 12px;
-  border-radius: 1px;
+  border-radius: 40px;
   display: inline-block;
   font-weight: 500;
 }

@@ -26,7 +26,9 @@
   box-sizing: border-box;
 }
 
-
+.profile-name i {
+  margin-right: 6px;
+}
 
 .centered-content {
   text-align: center;
@@ -60,4 +62,29 @@ ul {
 
 li {
   margin-bottom: 10px;   /* Space between each skill category */
+}
+
+.st {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #222;
+  position: relative;
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.st::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 3px;
+  background-color: #1976d2; /* primary blue */
+  margin: 8px auto 0;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.st:hover::after {
+  width: 80%;
 }
