@@ -37,3 +37,28 @@
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+
+.profile-name {
+  font-size: 15px;
+  text-align: center;
+  background-color: #e0e0e0;   /* light gray */
+  color: #333;                 /* dark text */
+  padding: 4px 13px;
+  border-radius: 16px;
+  display: inline-block;
+  font-weight: 500;
+  margin: 2px 2px 2px 0;
+}
+
+ul {
+  list-style: none;      /* Remove default bullets if needed */
+  padding-left: 0;       /* Optional: remove default padding */
+  text-align: left;      /* Ensures left alignment */
+  margin: 0 auto;        /* Centers the list block itself */
+  max-width: 800px;      /* Optional: limits the width nicely */
+}
+
+li {
+  margin-bottom: 10px;   /* Space between each skill category */
+}
