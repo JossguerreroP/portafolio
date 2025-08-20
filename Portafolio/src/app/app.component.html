@@ -1,16 +1,14 @@
+<div class="page-container">
+
 <mat-toolbar class="custom-toolbar">
-<a class="logo" >MyPortafolio</a>
-
   <span class="spacer"></span>
-
   <nav class="nav-links">
+    <a class="logo" >MyPortafolio</a>
     <a class="center-text" (click)="showSection('inicio')">Inicio</a>
     <a class="center-text" (click)="showSection('habilidades')">Habilidades</a>
     <a class="center-text" (click)="showSection('proyectos')">Proyectos</a>
   </nav>
-
   <span class="spacer"></span>
-   
 </mat-toolbar>
 
 
@@ -31,8 +29,25 @@
 <div class="col text">
    <div class="card-wrapper">
   <div class="card-box">
-    <span><strong>Bienvenidos a MyPortafolio!</strong> Es un espacio creado para conocer un poco más sobre mís habilidades proyectos</span>
+    <span><strong>Bienvenidos a MyPortafolio!</strong> </span>
+   <div style="padding-top: 10px;"> 
+ <span > Es un espacio creado para conocer un poco más sobre mís habilidades proyectos</span>
+   </div>
+    
+
+ <div class="Linkedin" >
+   <span>
+
+  Puedes visitar mi 
+  <a href="https://www.linkedin.com/in/john-sebastian-guerrero-pinto-414886331/" target="_blank" rel="noopener noreferrer">
+    LinkedIn 
+  </a> para saber mas sobre mi educación y experiencia.
+</span>
   </div>
+  </div>
+
+ 
+
 </div>
   <!-- Column 4: Right Spacing -->
   <div class="col empty"></div>
@@ -41,3 +56,22 @@
   <mat-divider></mat-divider>
 
 <router-outlet />
+
+
+<footer class="site-footer">
+  <p>&copy; 2025 MyPortafolio. All rights reserved.</p>
+  <p>Desarrollado por John Sebastian Guerrero Pinto</p>
+</footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

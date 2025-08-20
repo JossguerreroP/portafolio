@@ -33,13 +33,15 @@
 
 .logo {
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   padding: 8px 12px;
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0.1);
   transform: scale(1.05);
   cursor: pointer;
   animation: pulse 2s infinite;
+   position: relative;
+  z-index: 1;
 }
 
 @keyframes pulse {
@@ -75,15 +77,23 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+
+.site-footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 40px;
+}
 .card-box {
   height: 100%;
-  
   align-items: center; /* optional: center the text */
   justify-content: center;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 1px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e0e0e0;
+  border: 0px solid #e0e0e0;
   padding: 20px;
 }
 
@@ -124,4 +134,10 @@
   display: flex;
   gap: 16px;              /* space between profile and card */
   align-items: stretch;   /* make children equal height */
+}
+
+
+
+.Linkedin {
+  padding-top: 30px;
 }
