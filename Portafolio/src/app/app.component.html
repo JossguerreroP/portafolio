@@ -1,5 +1,6 @@
 
 
+
 <mat-toolbar class="custom-toolbar">
   <span class="spacer"></span>
   <nav class="nav-links">
@@ -7,15 +8,11 @@
     <a class="center-text" [routerLink]="['/main']" fragment="inicio">Inicio</a>
     <a class="center-text" [routerLink]="['/main']" fragment="habilidades">Habilidades</a>
     <a class="center-text" [routerLink]="['/main']" fragment="proyectos">Proyectos</a>
-
-
   </nav>
   <span class="spacer"></span>
 </mat-toolbar>
 
-
-<div class="main-container" autozise="true">
-  <!-- Column 1: Left Spacing -->
+<div class="main-container">
   <div class="col empty"></div>
   <!-- Column 2: Photo -->
    
@@ -52,22 +49,34 @@
     </div>
   </div>
 </div>
-
-
-  <!-- Column 4: Right Spacing -->
-  <div class="col empty"></div>
 </div>
 </div>
   <mat-divider></mat-divider>
 
-<router-outlet />
+    <!--
+  <router-outlet />
+       -->
+
+        <!--
+  <router-outlet />
+  
+       -->
 
 
-<footer class="site-footer">
+        <div class="page-wrapper-foot">
+    <!-- Navbar -->
+    <!-- Contenido principal -->
+    <div class="main-container">...</div>
+
+    <!-- Footer -->
+   <footer class="site-footer">
   <p>&copy; 2025 MyPortafolio</p>
   <p>Desarrollado por John Sebastian Guerrero Pinto</p>
   <p>Contacto sevasguerrero&#64;gmail.com</p>
 </footer>
+  </div>
+
+
 
 
 
