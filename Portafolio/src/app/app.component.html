@@ -4,9 +4,11 @@
   <span class="spacer"></span>
   <nav class="nav-links">
     <a class="logo" >MyPortafolio</a>
-    <a class="center-text" (click)="showSection('inicio')">Inicio</a>
-    <a class="center-text" (click)="showSection('habilidades')">Habilidades</a>
-    <a class="center-text" (click)="showSection('proyectos')">Proyectos</a>
+    <a class="center-text" [routerLink]="['/main']" fragment="inicio">Inicio</a>
+    <a class="center-text" [routerLink]="['/main']" fragment="habilidades">Habilidades</a>
+    <a class="center-text" [routerLink]="['/main']" fragment="proyectos">Proyectos</a>
+
+
   </nav>
   <span class="spacer"></span>
 </mat-toolbar>
