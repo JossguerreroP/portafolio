@@ -1,18 +1,17 @@
 
 <div #inicio id="inicio">
 <div class="section-content">
-<div *ngIf="activeSection === 'inicio'" class="full-page-section">
+
   <div class="centered-content">
     <h2 class="st">Inicio</h2>
    <p>Soy Ingeniero desarrollador , tengo un  enfoque principalmente en  el diseño e implementacion  de soluciones  modernas, seguras  y  escalables : utilizando el stack Angular para el frontend y Spring Boot para el backend. </p>
   </div>
-</div>
+
 </div>
 </div>
 
 <div #habilidades id="habilidades">
 <div class="section-content">
-<div *ngIf="activeSection === 'inicio'" class="full-page-section">
    <div class="centered-content">
  <div *ngIf="activeSection === 'inicio'">
     <!-- Habilidades content -->
@@ -58,22 +57,19 @@
 </div>
 </div>
 </div>
-</div>
 
 <div #proyectos id="proyectos">
 <div class="section-content">
-  <div *ngIf="activeSection === 'inicio'" class="full-page-section">
-    <div class="centered-content">
 
-      <!-- Proyectos content -->
-      <h2 class="st">Proyectos</h2>
-       <p>Estos son algunos de mis proyectos destacados:</p>
-         </div>
-     
-   
-
-      <!-- 🔽 Project Cards Start Here -->
       <div class="project-list">
+  
+        <div class="ok">
+      <h2 class="st">Proyectos</h2>
+      <br>
+       <p>Estos son algunos de mis proyectos destacados:</p>
+       </div>
+
+
         <div class="project-card">
          <h3><i class="fas fa-star"></i> Aplicación para la gestión de un sistema de energía electrica ante un evento disruptivo
 </h3>
@@ -127,7 +123,5 @@ https://applicationsdeployed.com/app3/
         <!-- Puedes seguir agregando más project-card aquí -->
       </div>
       <!-- 🔼 Project Cards End Here -->
-
-    </div>
   </div>
 </div>
